@@ -85,4 +85,7 @@ p {
     padding: 0;
     text-align: center;
   }
+  .weather-app {
+    margin-bottom: 20px;
+  }
 }
