@@ -29,8 +29,29 @@
     ></script>
   </head>
   <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Deepa Saha</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#expandme"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="expandme">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" aria-current="page" href="/">Home</a>
+            <a class="nav-item nav-link active" href="/about.html">About</a>
+            <a class="nav-item nav-link" href="/work.html">Work</a>
+            <a class="nav-item nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="content-container container">
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-lg-6">
           <div class="content">
             <h1 class="mb-4">Hi I am Deepa Saha</h1>
@@ -41,14 +62,14 @@
               everything is well explained, homework and deadlines are good for
               keeping focus.
             </p>
-            <a href="#" class="btn btn-branding">View my projects</a>
+            <a href="/work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
           <img
             src="/images/deepasaha.png"
             alt="deepa"
-            class="img-fluid rounded"
+            class="img-fluid rounded-circle"
           />
         </div>
       </div>
